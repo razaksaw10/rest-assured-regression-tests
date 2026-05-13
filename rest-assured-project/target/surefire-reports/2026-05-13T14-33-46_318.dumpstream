@@ -1,0 +1,5 @@
+# Created at 2026-05-13T14:33:46.557
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Telecgargements\rest-assured-regression-tests\rest-assured-project\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
