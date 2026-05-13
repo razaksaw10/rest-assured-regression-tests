@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.testproject.tests.PostsGetTest" time="197.684" tests="5" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.testproject.tests.PostsGetTest" time="11.994" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="FR"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-23\bin"/>
-    <property name="sun.java.command" value="C:\Users\RAZACK\AppData\Local\Temp\surefire9406447370647792026\surefirebooter-20260513150914159_3.jar C:\Users\RAZACK\AppData\Local\Temp\surefire9406447370647792026 2026-05-13T15-09-13_946-jvmRun1 surefire-20260513150914159_1tmp surefire_0-20260513150914159_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\RAZACK\AppData\Local\Temp\surefire16411462212174637272\surefirebooter-20260513164335921_3.jar C:\Users\RAZACK\AppData\Local\Temp\surefire16411462212174637272 2026-05-13T16-43-35_707-jvmRun1 surefire-20260513164335921_1tmp surefire_0-20260513164335921_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\Telecgargements\rest-assured-regression-tests\rest-assured-project\target\test-classes;D:\Telecgargements\rest-assured-regression-tests\rest-assured-project\target\classes;C:\Users\RAZACK\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\RAZACK\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\RAZACK\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\RAZACK\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\RAZACK\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\RAZACK\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\RAZACK\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\RAZACK\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\RAZACK\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\RAZACK\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\RAZACK\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\RAZACK\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\RAZACK\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\RAZACK\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\RAZACK\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\RAZACK\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\RAZACK\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\RAZACK\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\RAZACK\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\RAZACK\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\RAZACK\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\RAZACK\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.0\jackson-databind-2.17.0.jar;C:\Users\RAZACK\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.0\jackson-annotations-2.17.0.jar;C:\Users\RAZACK\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.0\jackson-core-2.17.0.jar;C:\Users\RAZACK\.m2\repository\net\bytebuddy\byte-buddy\1.14.9\byte-buddy-1.14.9.jar;C:\Users\RAZACK\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\RAZACK\.m2\repository\io\qameta\allure\allure-junit5\2.27.0\allure-junit5-2.27.0.jar;C:\Users\RAZACK\.m2\repository\io\qameta\allure\allure-junit-platform\2.27.0\allure-junit-platform-2.27.0.jar;C:\Users\RAZACK\.m2\repository\io\qameta\allure\allure-java-commons\2.27.0\allure-java-commons-2.27.0.jar;C:\Users\RAZACK\.m2\repository\io\qameta\allure\allure-model\2.27.0\allure-model-2.27.0.jar;C:\Users\RAZACK\.m2\repository\io\qameta\allure\allure-test-filter\2.27.0\allure-test-filter-2.27.0.jar;C:\Users\RAZACK\.m2\repository\org\junit\platform\junit-platform-launcher\1.9.2\junit-platform-launcher-1.9.2.jar;C:\Users\RAZACK\.m2\repository\io\qameta\allure\allure-rest-assured\2.27.0\allure-rest-assured-2.27.0.jar;C:\Users\RAZACK\.m2\repository\io\qameta\allure\allure-attachments\2.27.0\allure-attachments-2.27.0.jar;C:\Users\RAZACK\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\RAZACK\.m2\repository\org\slf4j\slf4j-simple\2.0.12\slf4j-simple-2.0.12.jar;C:\Users\RAZACK\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;"/>
     <property name="allure.results.directory" value="D:\Telecgargements\rest-assured-regression-tests\rest-assured-project\target/allure-results"/>
@@ -33,7 +33,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\RAZACK\AppData\Local\Temp\surefire9406447370647792026\surefirebooter-20260513150914159_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\RAZACK\AppData\Local\Temp\surefire16411462212174637272\surefirebooter-20260513164335921_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="23+37-2369"/>
@@ -62,7 +62,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="getAllPosts_ShouldReturn200AndNonEmptyList" classname="com.testproject.tests.PostsGetTest" time="2.45">
+  <testcase name="getAllPosts_ShouldReturn200AndNonEmptyList" classname="com.testproject.tests.PostsGetTest" time="4.807">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://jsonplaceholder.typicode.com/posts
 Proxy:			<none>
@@ -76,7 +76,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Wed, 13 May 2026 12:09:16 GMT
+Date: Wed, 13 May 2026 13:43:42 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -97,9 +97,9 @@ x-powered-by: Express
 x-ratelimit-limit: 1000
 x-ratelimit-remaining: 999
 x-ratelimit-reset: 1763596805
-Age: 22608
+Age: 28273
 cf-cache-status: HIT
-CF-RAY: 9fb18da55b55ed05-AMS
+CF-RAY: 9fb217f7dfb62409-AMS
 alt-svc: h3=":443"; ma=86400
 
 [
@@ -704,10 +704,10 @@ alt-svc: h3=":443"; ma=86400
         "body": "cupiditate quo est a modi nesciunt soluta\nipsa voluptas error itaque dicta in\nautem qui minus magnam et distinctio eum\naccusamus ratione error aut"
     }
 ]
-✅ TC-001 PASSED: 100 post alındı. Yanıt süresi: 990ms
+✅ TC-001 PASSED: 100 post alındı. Yanıt süresi: 2724ms
 ]]></system-out>
   </testcase>
-  <testcase name="getPostById_ShouldReturnCorrectPost" classname="com.testproject.tests.PostsGetTest" time="0.981">
+  <testcase name="getPostById_ShouldReturnCorrectPost" classname="com.testproject.tests.PostsGetTest" time="2.149">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://jsonplaceholder.typicode.com/posts/1
 Proxy:			<none>
@@ -721,7 +721,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Wed, 13 May 2026 12:09:17 GMT
+Date: Wed, 13 May 2026 13:43:44 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -731,20 +731,20 @@ etag: W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"
 expires: -1
 nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
 pragma: no-cache
-report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=N0C0LzzRgpeD4DWHEvT7ksjwf9rKOpB%2B%2Br4V6ZuaOYA%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1773511222"}],"max_age":3600}
-reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=N0C0LzzRgpeD4DWHEvT7ksjwf9rKOpB%2B%2Br4V6ZuaOYA%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1773511222"
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=UMshaOKiA1Do9rYg5zhUKBu3eUkxFT4UjAoLYU9%2Bfyk%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1776283132"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=UMshaOKiA1Do9rYg5zhUKBu3eUkxFT4UjAoLYU9%2Bfyk%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1776283132"
 Server: cloudflare
 vary: Origin, Accept-Encoding
 via: 2.0 heroku-router
 x-content-type-options: nosniff
 x-powered-by: Express
 x-ratelimit-limit: 1000
-x-ratelimit-remaining: 898
-x-ratelimit-reset: 1773511249
-Age: 16153
+x-ratelimit-remaining: 999
+x-ratelimit-reset: 1776283145
+Age: 26150
 cf-cache-status: HIT
 Content-Encoding: gzip
-CF-RAY: 9fb18dac7cfc161b-DUS
+CF-RAY: 9fb21809e86c845a-AMS
 alt-svc: h3=":443"; ma=86400
 
 {
@@ -753,87 +753,10 @@ alt-svc: h3=":443"; ma=86400
     "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
     "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
 }
-✅ TC-002 PASSED: Post ID=1 alındı. Yanıt süresi: 253ms
+✅ TC-002 PASSED: Post ID=1 alındı. Yanıt süresi: 1357ms
 ]]></system-out>
   </testcase>
-  <testcase name="getPostsByUserId_ShouldReturnFilteredPosts" classname="com.testproject.tests.PostsGetTest" time="191.195">
-    <failure message="Yanıt süresi 5000ms altında olmalı, fakat: 191151ms ==&gt; expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: Yanıt süresi 5000ms altında olmalı, fakat: 191151ms ==> expected: <true> but was: <false>
-	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
-	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
-	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
-	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
-	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:214)
-	at com.testproject.tests.PostsGetTest.getPostsByUserId_ShouldReturnFilteredPosts(PostsGetTest.java:141)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
-	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
-	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
-	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
-	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
-	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
-	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
-	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
-	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
-	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
-	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
+  <testcase name="getPostsByUserId_ShouldReturnFilteredPosts" classname="com.testproject.tests.PostsGetTest" time="3.372">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://jsonplaceholder.typicode.com/posts?userId=1
 Proxy:			<none>
@@ -847,31 +770,31 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Wed, 13 May 2026 12:12:29 GMT
+Date: Wed, 13 May 2026 13:43:49 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 1002
 Connection: keep-alive
-Access-Control-Allow-Credentials: true
+access-control-allow-credentials: true
 Cache-Control: max-age=43200
 Content-Encoding: gzip
-Etag: W/"aa6-j2NSH739l9uq40OywFMn7Y0C/iY"
-Expires: -1
-Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
-Pragma: no-cache
-Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=mENDlXh2JMazEPYZrEHMwh4UHgmtgsbjhd5wTa37QLo%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1778671873"}],"max_age":3600}
-Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=mENDlXh2JMazEPYZrEHMwh4UHgmtgsbjhd5wTa37QLo%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1778671873"
+etag: W/"aa6-j2NSH739l9uq40OywFMn7Y0C/iY"
+expires: -1
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=Lqyis2kBKtnARqgX4Cay2iAeyyCJ2%2BRmPDgwFlElgWU%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1772357218"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=Lqyis2kBKtnARqgX4Cay2iAeyyCJ2%2BRmPDgwFlElgWU%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1772357218"
 Server: cloudflare
-Vary: Origin, Accept-Encoding
-Via: 2.0 heroku-router
-X-Content-Type-Options: nosniff
-X-Powered-By: Express
-X-Ratelimit-Limit: 1000
-X-Ratelimit-Remaining: 999
-X-Ratelimit-Reset: 1778671887
-Age: 2285
+vary: Origin, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 999
+x-ratelimit-reset: 1772357253
+Age: 25187
 Accept-Ranges: bytes
-Cf-Cache-Status: HIT
-CF-RAY: 9fb18db5a94cfb7b-DUS
+cf-cache-status: HIT
+CF-RAY: 9fb218239bd11afa-AMS
 alt-svc: h3=":443"; ma=86400
 
 [
@@ -936,9 +859,10 @@ alt-svc: h3=":443"; ma=86400
         "body": "quo et expedita modi cum officia vel magni\ndoloribus qui repudiandae\nvero nisi sit\nquos veniam quod sed accusamus veritatis error"
     }
 ]
+✅ TC-003 PASSED: userId=1 için 10 post bulundu. Yanıt süresi: 3330ms
 ]]></system-out>
   </testcase>
-  <testcase name="getPostById_WithInvalidId_ShouldReturn404" classname="com.testproject.tests.PostsGetTest" time="0.87">
+  <testcase name="getPostById_WithInvalidId_ShouldReturn404" classname="com.testproject.tests.PostsGetTest" time="0.276">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://jsonplaceholder.typicode.com/posts/9999
 Proxy:			<none>
@@ -952,7 +876,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 404 Not Found
-Date: Wed, 13 May 2026 12:12:29 GMT
+Date: Wed, 13 May 2026 13:43:49 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 2
 Connection: keep-alive
@@ -962,8 +886,8 @@ etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
 expires: -1
 nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
 pragma: no-cache
-report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=oKRdB6OGGJS6uNzn2obDdGqZo%2FSPc9ttC6Ccclno%2F5E%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1778672139"}],"max_age":3600}
-reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=oKRdB6OGGJS6uNzn2obDdGqZo%2FSPc9ttC6Ccclno%2F5E%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1778672139"
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=2ZJLVz5Abto9YRbAEP%2F4iDJ%2F3gIf5J68dYQQUuP8Mo8%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1778671811"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=2ZJLVz5Abto9YRbAEP%2F4iDJ%2F3gIf5J68dYQQUuP8Mo8%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1778671811"
 Server: cloudflare
 vary: Origin, Accept-Encoding
 via: 2.0 heroku-router
@@ -971,19 +895,19 @@ x-content-type-options: nosniff
 x-powered-by: Express
 x-ratelimit-limit: 1000
 x-ratelimit-remaining: 999
-x-ratelimit-reset: 1778672187
-Age: 2209
+x-ratelimit-reset: 1778671827
+Age: 8018
 cf-cache-status: HIT
-CF-RAY: 9fb1925da84806bc-AMS
+CF-RAY: 9fb218255c4afb7b-DUS
 alt-svc: h3=":443"; ma=86400
 
 {
     
 }
-✅ TC-004 PASSED: 404 status kodu alındı. Yanıt süresi: 768ms
+✅ TC-004 PASSED: 404 status kodu alındı. Yanıt süresi: 234ms
 ]]></system-out>
   </testcase>
-  <testcase name="getAllPosts_ShouldReturnJsonContentType" classname="com.testproject.tests.PostsGetTest" time="1.384">
+  <testcase name="getAllPosts_ShouldReturnJsonContentType" classname="com.testproject.tests.PostsGetTest" time="0.272">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://jsonplaceholder.typicode.com/posts
 Proxy:			<none>
@@ -997,7 +921,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Wed, 13 May 2026 12:12:31 GMT
+Date: Wed, 13 May 2026 13:43:49 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -1008,8 +932,8 @@ etag: W/"6b80-Ybsq/K6GwwqrYkAsFxqDXGC7DoM"
 expires: -1
 nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
 pragma: no-cache
-report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=0xmmsZHNXfzjgJFMTL%2B%2BJEWOjtVL%2Fdc1qD7kvhB6M2I%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1760011634"}],"max_age":3600}
-reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=0xmmsZHNXfzjgJFMTL%2B%2BJEWOjtVL%2Fdc1qD7kvhB6M2I%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1760011634"
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=bOZWq3O%2B7fyTrtaJdxgJhp6RyGbH8D3XRaI4Ndqq9Xs%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1763596773"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=bOZWq3O%2B7fyTrtaJdxgJhp6RyGbH8D3XRaI4Ndqq9Xs%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1763596773"
 Server: cloudflare
 vary: Origin, Accept-Encoding
 via: 2.0 heroku-router
@@ -1017,10 +941,10 @@ x-content-type-options: nosniff
 x-powered-by: Express
 x-ratelimit-limit: 1000
 x-ratelimit-remaining: 999
-x-ratelimit-reset: 1760011644
-Age: 27391
+x-ratelimit-reset: 1763596805
+Age: 28281
 cf-cache-status: HIT
-CF-RAY: 9fb1926a0b4bf95a-DUS
+CF-RAY: 9fb218271dc60a4f-AMS
 alt-svc: h3=":443"; ma=86400
 
 [
@@ -1625,7 +1549,7 @@ alt-svc: h3=":443"; ma=86400
         "body": "cupiditate quo est a modi nesciunt soluta\nipsa voluptas error itaque dicta in\nautem qui minus magnam et distinctio eum\naccusamus ratione error aut"
     }
 ]
-✅ TC-005 PASSED: Content-Type doğrulandı. Yanıt süresi: 1355ms
+✅ TC-005 PASSED: Content-Type doğrulandı. Yanıt süresi: 239ms
 ]]></system-out>
   </testcase>
 </testsuite>
